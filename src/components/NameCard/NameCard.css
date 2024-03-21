@@ -1,0 +1,32 @@
+.result-name-card {
+    color: #e7e9f0;
+    background: #4f2828;
+    margin: 10px 15px;
+    min-width: 75px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
+    transition: background 0.35s;
+    display: flex;
+    flex-direction: column; /* Adjusted to make the dropdown appear below the name */
+    align-items: center; /* Adjusted for center alignment */
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.result-name-card:hover {
+    background: #794a4a;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+.result-name {
+    margin: 0;
+    font-weight: 400;
+    margin-bottom: 10px; /* Adjusted to add space between name and dropdown */
+}
+
+.provider-dropdown {
+    margin-top: 10px; /* Adjusted to add space between name and dropdown */
+}
